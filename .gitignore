@@ -1,0 +1,34 @@
+# Ignore paths that contain user-generated content.
+docroot/files
+docroot/sites/*/files
+docroot/sites/*/private
+docroot/core
+docroot/modules/contrib
+docroot/profiles/contrib
+docroot/themes/contrib
+docroot/libraries
+vendor
+local.settings.php
+local.drush.yml
+local.site.yml
+local.services.yml
+*.local
+local.blt.yml
+deployment_identifier
+/travis_wait*
+/files-private
+.phpcs-cache
+/docroot/sites/default/settings.local.php
+
+# Mac Files
+.DS_Store
+
+# Ignore devs trash
+.env
+.vscode
+.idea
+*.log
+*.sql
+*.zip
+*:Zone.Identifier
+._*

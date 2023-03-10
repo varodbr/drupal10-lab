@@ -1,0 +1,4 @@
+name: drupal10-lab
+recipe: drupal10
+config:
+  webroot: docroot
